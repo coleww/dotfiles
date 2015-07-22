@@ -17,7 +17,7 @@ fi
 
 if [ -d "~/.nvm" ]; then
   source ~/.nvm/nvm.sh
-then
+fi
 
 if [ -d "~/.rbenv" ]; then
   eval "$(rbenv init -)"

@@ -8,3 +8,5 @@
 (add-to-list 'package-archives
                  '("melpa" . "http://melpa.org/packages/"))
 
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)

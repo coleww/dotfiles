@@ -47,3 +47,5 @@
 [core]
   editor = nano
   excludesfile = /Users/colewillsea/.gitignore_global
+[push]
+  default = simple

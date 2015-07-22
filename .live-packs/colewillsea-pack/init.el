@@ -8,4 +8,5 @@
 (add-to-list 'package-archives
                  '("melpa" . "http://melpa.org/packages/"))
 
-(global-set-key [f8] 'neotree-toggle)
+(global-unset-key "M-k")
+(global-set-key (kbd "M-k M-b") 'neotree-toggle)

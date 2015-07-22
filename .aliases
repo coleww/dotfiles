@@ -37,5 +37,5 @@ alias kill-emacs="emacsclient -n -e '(kill-emacs)'"
 
 # ssh into $1 and attach to tmux
 sshin(){
-  ssh $1 -t tmux a
+  ssh $1 -t tmux -CC a
 }

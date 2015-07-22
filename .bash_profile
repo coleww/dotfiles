@@ -3,6 +3,13 @@ export PATH="/usr/local/bin:$PATH"
 PATH=$HOME/bin:$PATH
 export PATH
 
+# fix tmux copy paste joy
+if [[ "$(uname)" = "Darwin" ]]; then
+    alias tmux='tmux -f ~/.tmux-osx.conf'
+else
+    alias tmux='tmux'
+fi
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.

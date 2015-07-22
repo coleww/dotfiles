@@ -11,12 +11,18 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done
 unset file
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
+if [ "$(uname)" == "Darwin" ]; then
+  if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+  fi
 fi
 
-source ~/.nvm/nvm.sh
+if [ -d "~/.nvm" ]; then
+  source ~/.nvm/nvm.sh
+then
 
-eval "$(rbenv init -)"
+if [ -d "~/.rbenv" ]; then
+  eval "$(rbenv init -)"
+fi
 
 source ~/.bashrc

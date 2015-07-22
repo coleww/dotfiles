@@ -7,3 +7,5 @@
 (live-load-config-file "bindings.el")
 (add-to-list 'package-archives
                  '("melpa" . "http://melpa.org/packages/"))
+
+(global-set-key [f8] 'neotree-toggle)

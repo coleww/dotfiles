@@ -1,4 +1,4 @@
-PATH=$HOME/ops-scripts:$PATH
+PATH=$HOME/ops-scripts/bin:$PATH
 PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export PATH

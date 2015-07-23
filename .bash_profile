@@ -30,4 +30,3 @@ if [ -d "~/.rbenv" ]; then
   eval "$(rbenv init -)"
 fi
 
-source ~/.bashrc

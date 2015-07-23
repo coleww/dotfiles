@@ -6,6 +6,7 @@ bootstrap.sh swiped from [mathiasbynens](https://github.com/mathiasbynens/dotfil
 
 TODO:
 - put neotree in livepack
+- THIS WILL SOLVEVERYTHING? https://gist.github.com/burke/5960455
 
 ### TODO: SCRIPT THIS:
 

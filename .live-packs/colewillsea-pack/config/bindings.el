@@ -5,5 +5,6 @@
 ;;(define-key global-map (kbd "C--") 'text-scale-decrease)
 (global-set-key [f8] 'neotree-toggle)
 
-(setq js-indent-level 2)
+;; SPACES!
 (setq-default indent-tabs-mode nil)
+(js2-basic-offset 2)  

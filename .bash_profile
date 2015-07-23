@@ -22,11 +22,10 @@ if [ "$(uname)" == "Darwin" ] && [ -f $(brew --prefix)/etc/bash_completion ]; th
   . $(brew --prefix)/etc/bash_completion
 fi
 
-if [ -d "~/.nvm" ]; then
+if [ -d ~/.nvm ]; then
   source ~/.nvm/nvm.sh
 fi
 
-if [ -d "~/.rbenv" ]; then
+if [ -d ~/.rbenv ]; then
   eval "$(rbenv init -)"
 fi
-

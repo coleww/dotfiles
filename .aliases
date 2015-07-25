@@ -31,14 +31,7 @@ alias gc='git commit -m'
 alias pj='cd ~/projects'
 
 # emacs client/server fun
-
-# be explicit about yr emacs
-if [[ "$(uname)" = "Darwin" ]]; then
-    alias es="/usr/local/bin/emacs --daemon"
-else
-    alias es="/usr/local/bin/emacs-24.4 --daemon"
-fi
-
+alias es="/usr/local/bin/emacs --daemon"
 alias emacs="/usr/local/bin/emacsclient -ct"
 alias kill-emacs="emacsclient -n -e '(kill-emacs)'"
 

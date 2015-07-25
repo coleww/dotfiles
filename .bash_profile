@@ -5,9 +5,16 @@ export PATH
 
 # fix tmux copy paste joy
 if [[ "$(uname)" = "Darwin" ]]; then
-    alias tmux='tmux -f ~/.tmux-osx.conf'
+  echo "             *     ,MMM8&&&.            *"
+  echo "                  MMMM88&&&&&    ."
+  echo "                 MMMM88&&&&&&&"
+  echo "     *           MMM88&&&&&&&&"
+  echo "                 MMM88&&&&&&&&"
+  echo "                 'MMM88&&&&&&'"
+  echo "                   'MMM8&&&'      *    "
+  alias tmux='tmux -f ~/.tmux-osx.conf'
 else
-    alias tmux='tmux'
+  alias tmux='tmux'
 fi
 
 # Load the shell dotfiles, and then some:
@@ -19,13 +26,27 @@ done
 unset file
 
 if [ "$(uname)" == "Darwin" ] && [ -f $(brew --prefix)/etc/bash_completion ]; then
+  echo "           /\\/|_      __/\\\\"
+  echo "          /    -\\    /-   ~\\  .              '"
+  echo "          \\    = Y =T_ =   /"
+  echo "           )==*(`     `) ~ \\"
+  echo "          /     \\     /     \\"
   . $(brew --prefix)/etc/bash_completion
 fi
 
 if [ -d ~/.nvm ]; then
+  echo "           |     |     ) ~   ("
+  echo "         /       \\   /     ~ \\"
+  echo "         \\       /   \\~     ~/"
+  echo "  jgs_/\\_/\\__  _/_/\\_/\\__~__/_/\\_/\\_/\\_/\\_/\\_"
+  echo "  |  |  |  | ) ) |  |  | ((  |  |  |  |  |  |"
   source ~/.nvm/nvm.sh
 fi
 
 if [ -d ~/.rbenv ]; then
+  echo "  |  |  |  |( (  |  |  |  \\\\ |  |  |  |  |  |"
+  echo "  |  |  |  | )_) |  |  |  |))|  |  |  |  |  |"
+  echo "  |  |  |  |  |  |  |  |  (/ |  |  |  |  |  |"
+  echo "  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |"
   eval "$(rbenv init -)"
 fi

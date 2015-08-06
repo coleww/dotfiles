@@ -29,7 +29,7 @@ alias pull='git pull origin master'
 alias ga='git add'
 alias gco='git checkout'
 alias gc='git commit -m'
-alias gca='git commit --amend
+alias gca='git commit --amend'
 
 # STAY ORGANIZED
 alias pj='cd ~/projects'

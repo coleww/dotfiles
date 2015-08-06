@@ -15,3 +15,5 @@ it won't respect split windows/panes, but i don't really use those so it's cool,
 -  https://github.com/sstephenson/rbenv#installation
 -  https://github.com/creationix/nvm#manual-install
 -  sudo npm install npm -g && npm install bower ember-cli -g
+
+### UBUNTU SERVER => update emacs http://askubuntu.com/a/546050

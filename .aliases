@@ -5,6 +5,9 @@ else # OS X `ls`
   colorflag="-G"
 fi
 
+# reload dotfiles from the cloud
+alias redot='~/dotfiles/bootstrap.sh'
+
 # List all files colorized in long format
 alias ll='ls -lh'
 
@@ -26,6 +29,7 @@ alias pull='git pull origin master'
 alias ga='git add'
 alias gco='git checkout'
 alias gc='git commit -m'
+alias gca='git commit --amend
 
 # STAY ORGANIZED
 alias pj='cd ~/projects'
@@ -41,6 +45,8 @@ fi
 
 alias emacs="/usr/local/bin/emacsclient -ct"
 alias kill-emacs="emacsclient -n -e '(kill-emacs)'"
+
+
 
 # ssh into $1 and attach to tmux
 # tmux -CC a for that weird magic thing that seems to be broken completely

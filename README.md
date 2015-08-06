@@ -3,12 +3,12 @@ DOTFILES
 
 bootstrap.sh swiped from [mathiasbynens](https://github.com/mathiasbynens/dotfiles/blob/master/bootstrap.sh)
 
-TODO:
-- THIS WILL SOLVEVERYTHING? https://gist.github.com/burke/5960455
+### COPY PASTE FROM SSH'D TMUX:
+just hold down the option key. 
+it won't respect split windows/panes, but i don't really use those so it's cool, don't worry bout a thing.
 
-### TODO: SCRIPT THIS:
+### TODO: SCRIPT THIS: I GUESS?
 
-- `brew install reattach-to-user-namespace`
 - `brew install bash-completion`
 - `bash <(curl -fksSL https://raw.github.com/overtone/emacs-live/master/installer/install-emacs-live.sh)`
 - `brew install leiningen` or https://github.com/technomancy/leiningen/

@@ -46,8 +46,6 @@ fi
 alias emacs="/usr/local/bin/emacsclient -ct"
 alias kill-emacs="emacsclient -n -e '(kill-emacs)'"
 
-
-
 # ssh into $1 and attach to tmux
 # tmux -CC a for that weird magic thing that seems to be broken completely
 sshin(){

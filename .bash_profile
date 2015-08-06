@@ -3,8 +3,7 @@ export PATH="/usr/local/bin:$PATH"
 PATH=$HOME/bin:$PATH
 export PATH
 
-# fix tmux copy paste joy
-if [[ "$(uname)" = "Darwin" ]]; then
+
   echo "             *     ,MMM8&&&.            *"
   echo "                  MMMM88&&&&&    ."
   echo "                 MMMM88&&&&&&&"
@@ -12,10 +11,8 @@ if [[ "$(uname)" = "Darwin" ]]; then
   echo "                 MMM88&&&&&&&&"
   echo "                 'MMM88&&&&&&'"
   echo "                   'MMM8&&&'      *    "
-  alias tmux='tmux -f ~/.tmux-osx.conf'
-else
-  alias tmux='tmux'
-fi
+
+
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

@@ -2,7 +2,7 @@
                  '("melpa" . "http://melpa.org/packages/"))
                  
 ; list the packages you want
-(setq package-list '(neotree clj-refactor))
+(setq package-list '(neotree))
 
 ; list the repositories containing them
 (setq package-archives '(("elpa" . "http://tromey.com/elpa/")

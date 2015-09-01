@@ -46,6 +46,8 @@ fi
 alias emacs="/usr/local/bin/emacsclient -ct"
 alias kill-emacs="emacsclient -n -e '(kill-emacs)'"
 
+alias sync-upstream="git fetch upstream && git checkout master && git merge upstream/master"
+
 # ssh into $1 and attach to tmux
 # tmux -CC a for that weird magic thing that seems to be broken completely
 sshin(){

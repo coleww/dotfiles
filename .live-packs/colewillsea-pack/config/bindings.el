@@ -8,3 +8,10 @@
 ;; SPACES!
 (setq-default indent-tabs-mode nil)
 (js2-basic-offset 2)  
+
+(require 'multiple-cursors)
+
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c C->") 'mc/add-cursor-on-click)

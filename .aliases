@@ -30,7 +30,7 @@ alias ga='git add'
 alias gco='git checkout'
 alias gc='git commit -m'
 alias gca='git commit --amend'
-
+alias gphamster='git push heroku master'
 # STAY ORGANIZED
 alias pj='cd ~/projects'
 

@@ -22,6 +22,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,secret-aliases}; do
 done
 unset file
 
+# fix that thing when installing canvas
+# because i install node-canvas really often it turns out
+export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 
 if [ "$(uname)" == "Darwin" ] && [ -f $(brew --prefix)/etc/bash_completion ]; then
   echo "           /\\/|_      __/\\\\"

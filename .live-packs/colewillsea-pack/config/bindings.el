@@ -15,3 +15,8 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c C->") 'mc/add-cursor-on-click)
+
+
+(require 'string-inflection)
+(global-unset-key (kbd "C-q"))
+(global-set-key (kbd "C-q C-u") 'string-inflection-cycle)

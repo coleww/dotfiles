@@ -40,8 +40,8 @@ if [[ "$(uname)" = "Darwin" ]]; then
     alias es="/usr/local/bin/emacs --daemon"
     alias emacs="/usr/local/bin/emacsclient -ct"
 else
-    alias es="~/emacs-24.4 --daemon"
-    alias emacs="~/emacs-4.4 -ct"
+    alias es="emacs --daemon"
+    alias emacs="emacs -ct"
 fi
 
 alias kill-emacs="emacsclient -n -e '(kill-emacs)'"

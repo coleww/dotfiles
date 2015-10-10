@@ -38,7 +38,7 @@ alias pj='cd ~/projects'
 
 # be explicit about yr emacs
 if [[ "$(uname)" = "Darwin" ]]; then
-    alias es="/usr/local/bin/emacs --daemon"
+    alias es="~/emacs-24.4 --daemon"
 else
     alias es="/usr/local/bin/emacs-24.4 --daemon"
 fi

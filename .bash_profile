@@ -33,6 +33,7 @@ if [ "$(uname)" == "Darwin" ] && [ -f $(brew --prefix)/etc/bash_completion ]; th
   echo "           )==*(`     `) ~ \\"
   echo "          /     \\     /     \\"
   . $(brew --prefix)/etc/bash_completion
+  export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig
 fi
 
 if [ -d ~/.nvm ]; then

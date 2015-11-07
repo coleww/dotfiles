@@ -53,3 +53,7 @@ alias sync-upstream="git fetch upstream && git checkout master && git merge upst
 sshin(){
   ssh $1 -t tmux a
 }
+
+chootube () {
+  youtube-dl -o "input" https://www.youtube.com/watch?v=$1 && ffmpeg -i input.mp4 output.mp3
+}
